@@ -1,7 +1,7 @@
 function __buildHeaders(opts = {}) {
   const { authToken, type } = opts;
   let headers = {
-    'X-GOODCITY-APP-NAME': 'api_admin',
+    'X-GOODCITY-APP-NAME': 'settings_editor',
   };
   if (authToken) {
     headers['Authorization'] = `Bearer ${authToken}`;
