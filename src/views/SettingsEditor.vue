@@ -27,10 +27,10 @@
                 <el-input placeholder="value" v-model="scope.row.value"></el-input>
               </el-col>
               <el-col :span="5">
-                <el-button icon="el-icon-check" @click="updateSetting(scope.row)">Save</el-button>
+                <el-button @click="updateSetting(scope.row)">Save</el-button>
               </el-col>
               <el-col :span="5">
-                <el-button type="danger" icon="el-icon-delete" plain @click="deleteSetting(scope.row.id)"></el-button>
+                <el-button type="danger" plain @click="deleteSetting(scope.row.id)">Delete</el-button>
               </el-col>
             </el-row>
           </template>
