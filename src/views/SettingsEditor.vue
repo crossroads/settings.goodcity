@@ -30,7 +30,7 @@
                 <el-button @click="updateSetting(scope.row)">Save</el-button>
               </el-col>
               <el-col :span="5">
-                <el-button type="danger" plain @click="deleteSetting(scope.row.id)">Delete</el-button>
+                <el-button type="danger" plain @click="deleteSetting(scope.row.id)">Remove</el-button>
               </el-col>
             </el-row>
           </template>
