@@ -1,7 +1,7 @@
 <template>
   <el-container>
     <el-header>
-      <h2>Goodcity admin panel</h2>
+      <h2>Goodcity Settings Editor</h2>
     </el-header>
     <el-main>
       <!-- ACTION BUTTONS -->
