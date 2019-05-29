@@ -37,7 +37,7 @@
         </el-table-column>
 
         <!-- DESC -->
-        <el-table-column prop="desc" label="Desc" ></el-table-column>
+        <el-table-column prop="description" label="Description" ></el-table-column>
       </el-table>
 
       <!-- CREATION DIALOG -->
@@ -50,7 +50,7 @@
             <el-input v-model="newSetting.value" autocomplete="off"></el-input>
           </el-form-item>
           <el-form-item label="Description">
-            <el-input v-model="newSetting.desc" autocomplete="off"></el-input>
+            <el-input v-model="newSetting.description" autocomplete="off"></el-input>
           </el-form-item>
         </el-form>
         <span slot="footer" class="dialog-footer">
@@ -82,7 +82,7 @@ export default {
       this.newSetting = {
         key: "",
         value: "",
-        desc: ""
+        description: ""
       };
     },
 
